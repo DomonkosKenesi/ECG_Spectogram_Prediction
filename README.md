@@ -16,5 +16,11 @@ We use stratified sampling due to the low numbers of rare cases to keep the real
 
 
 ## Step 4: Cross-validation
+K-fold cross validation is performed on the data to distribute the patients with rare diseases uniformly.
 
 
+## Step 5: Dummy Baselines
+Create a dummy baseling to evaluate the perforamce of the complex model later to determine the performance od each disease prediction.
+
+
+## Step 6: Model on spectogram 
